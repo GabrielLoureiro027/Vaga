@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Participantes do Evento</title>
+</head>
+<body>
+    <h1 id="tituloEvento">Participantes do Evento</h1>
+    <ul id="participantes"></ul> <!-- Lista não ordenada para participantes -->
+
+    <h2>Adicionar Participante</h2>
+    <form id="formParticipante">
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <button onclick="window.location.href='index.html'">Voltar para Eventos</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
